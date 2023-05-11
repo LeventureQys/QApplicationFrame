@@ -52,5 +52,8 @@ void MainApplication::Start() {
 		break;
 	}
 
+
+	view.show();
+
 }
 

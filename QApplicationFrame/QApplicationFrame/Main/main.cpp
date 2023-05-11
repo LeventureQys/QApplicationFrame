@@ -1,7 +1,8 @@
 #include <QtCore/QCoreApplication>
 #include "../Main/MainApplication.h"
 #include "../Tools/Tools_South.h"
-#include "../QDumper/LgQDumper.h"
+//#include "../QDumper/LgQDumper.h"
+#include "Log.h"
 #include "qdebug.h"
 //Author:Leventure
 //Date:2023-4-23
@@ -15,11 +16,12 @@ int main(int argc, char *argv[])
 {
     MainApplication app(argc, argv);
 
-#ifdef _WIN32
-    qDebug() << "当前使用的是Windows系统";
-    SetUnhandledExceptionFilter((LPTOP_LEVEL_EXCEPTION_FILTER)ApplicationCrashHandler);
-#endif // _WIN32
 
+    qDebug() << "当前使用的是Windows系统";
+    //SetUnhandledExceptionFilter((LPTOP_LEVEL_EXCEPTION_FILTER)ApplicationCrashHandler);
+    QT_LOG::logInit("errorlog.txt", 0);
+
+    app.Start();
 
     return app.exec();
 }

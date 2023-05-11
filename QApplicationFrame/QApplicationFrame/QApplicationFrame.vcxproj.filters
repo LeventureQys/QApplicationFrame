@@ -35,6 +35,9 @@
     <ClCompile Include="LocalInfo\SystemInfo.cpp">
       <Filter>Main</Filter>
     </ClCompile>
+    <ClCompile Include="View\CarClient.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="QDumper\LgQDumper.h">
@@ -42,6 +45,9 @@
     </ClInclude>
     <ClInclude Include="Tools\Tools_South.h">
       <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\Log.h">
+      <Filter>Include</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -51,5 +57,11 @@
     <QtMoc Include="LocalInfo\SystemInfo.h">
       <Filter>Include</Filter>
     </QtMoc>
+    <QtMoc Include="View\CarClient.h">
+      <Filter>Include</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="View\CarClient.ui" />
   </ItemGroup>
 </Project>

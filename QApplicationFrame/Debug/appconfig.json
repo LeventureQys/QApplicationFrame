@@ -1,0 +1,60 @@
+{
+	"ProjPath": "D:/Scan",
+	"RegisCode": "SOUTHGZMS100",
+	"FaroBaseName": "Scan",
+	"IsGetCarStat": false,
+	"IsLog": true,
+	"TimeFactor": 1,
+	"CarDeta": 0.000188496,
+	"IsReSetTime": true,
+	"IP": "192.200.0.20",
+	"Port": "8088",
+	"CarDeta": 0.0001150486,
+	"CarComInfo": {
+		"PortName": "COM4",
+		"BaudRate": 921600,
+		"DataBits": 8,
+		"StopBits": 1,
+		"Parity": 0
+	},
+	"GnssComInfo": {
+		"PortName": "COM5",
+		"BaudRate": 921600,
+		"DataBits": 8,
+		"StopBits": 1,
+		"Parity": 0
+	},
+	"ImuComInfo": {
+		"PortName": "COM14",
+		"BaudRate": 921600,
+		"DataBits": 8,
+		"StopBits": 1,
+		"Parity": 0
+	},
+	"GpsTComInfo": {
+		"PortName": "COM99",
+		"BaudRate": 921600,
+		"DataBits": 8,
+		"StopBits": 1,
+		"Parity": 0
+	},
+	"CamTComInfo": {
+		"PortName": "COM8",
+		"BaudRate": 921600,
+		"DataBits": 8,
+		"StopBits": 1,
+		"Parity": 0
+	},
+	"FaroInfo": {
+		"SN": "LLS082016679",
+		"Key": "P64WL7NRTGTXXM6TYKZCSPLPU",
+		"IP": "172.17.9.20",
+		"ConType": "LAN"
+	},
+	"DBConnInfo": {
+		"Host": "",
+		"UserName": "",
+		"PassWord": "",
+		"Port": 0
+	}
+}

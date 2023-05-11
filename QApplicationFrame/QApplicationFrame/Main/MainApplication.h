@@ -7,6 +7,7 @@
 #include "../Tools/Tools_South.h"
 #include "../LocalInfo/SystemInfo.h"
 #include "qlist.h"
+#include "../View/CarClient.h"
 class MainApplication  : public QApplication
 {
 	Q_OBJECT
@@ -34,4 +35,5 @@ private:
 
 	QSharedPointer<QThread> thread_tcp;
 	QSharedPointer<QThread> thread_file;
+	CarClientView view;
 };
